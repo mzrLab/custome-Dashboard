@@ -87,13 +87,17 @@ section
 *{
     font-family: 'VazirMed';
 }
+.inputsStyleCustome{
+    background-color: #26282b !important;
+    border: 1px solid rgba(225,225,255,0.2) !important;
+}
 body
 {
     font-family: 'VazirLight';
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    background-color: #5e72e4 !important;
+    background-color: #353941 !important;
 
     margin: 0;
 
@@ -2850,7 +2854,7 @@ textarea.form-control
 
 .form-group
 {
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.9rem;
 }
 
 .form-text
@@ -8770,10 +8774,13 @@ a.close.disabled
 {
     vertical-align: text-top !important;
 }
+.nav-bg-dark{
+    background-color: #26282b !important;
+}
 /*
 .bg-primary
 {
-    background-color: #5e72e4 !important;
+    background-color: # !important;
 }*/
 
 a.bg-primary:hover,
@@ -8793,6 +8800,20 @@ button.bg-primary:focus
 padding-bottom: 18px;
 padding-right: 30px;
 padding-left: 30px;
+background: #26282b;
+}
+.cardTitleCustome{
+    font-size: 0.9rem !important;
+    margin-top: 8px !important;
+}
+.cardsNumbers{
+    margin-top: 4px !important;
+    font-size: 18px !important;
+    color: #5e6166 !important;
+}
+.settingTheBestSize{
+    padding-right: 24px;
+padding-left: 24px;
 }
 a.bg-secondary:hover,
 a.bg-secondary:focus,
@@ -24162,7 +24183,7 @@ button.bg-lighter:focus
 
 .bg-gradient-primary
 {
-    background: linear-gradient(87deg, #5e72e4 0, #825ee4 100%) !important;
+    background:linear-gradient(87deg, #26282b 0, #36383c 100%) !important;
 }
 
 .bg-gradient-secondary
@@ -24174,49 +24195,6 @@ button.bg-lighter:focus
 {
     background: linear-gradient(87deg, #2dce89 0, #2dcecc 100%) !important;
 }
-
-.bg-gradient-info
-{
-    background: linear-gradient(87deg, #11cdef 0, #1171ef 100%) !important;
-}
-.bg-gradient-info2
-{
-    background: #FF4E50  !important;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #F9D423, #FF4E50) !important;  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #F9D423, #FF4E50) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}
-
-.bg-gradient-info3
-{
-    background: #DD5E89;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F7BB97, #DD5E89);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F7BB97, #DD5E89); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-}
-
-.bg-gradient-info4
-{
-    background: #1FA2FF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-}
-.bg-gradient-info5
-{
-    background: #9796f0;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-}
-.bg-gradient-info6
-{
-    background: #ffe259;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #ffa751, #ffe259);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #ffa751, #ffe259); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}
-
 
 .bg-gradient-warning
 {
@@ -24552,11 +24530,6 @@ button.section-darker:hover,
 button.section-darker:focus
 {
     background-color: black !important;
-}
-
-.bg-gradient-primary
-{
-    background: linear-gradient(87deg, #5e72e4 0, #825ee4 100%) !important;
 }
 
 .bg-gradient-secondary
